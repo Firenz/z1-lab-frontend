@@ -1,8 +1,5 @@
-import {
-  PokemonApi,
-  PokemonApiTypes,
-  PokemonApiSprites,
-} from './../api/pokemon.api';
+import { PokemonApi, PokemonApiTypes } from 'core';
+
 export interface PokemonVm {
   id: string;
   name: string;
@@ -11,7 +8,6 @@ export interface PokemonVm {
 }
 
 export const mapperPokemonApiToVm = (pokemonApi: PokemonApi): PokemonVm => {
-  console.log(pokemonApi.types[0]);
   const type1: PokemonApiTypes = pokemonApi.types[0];
   let type2: PokemonApiTypes = pokemonApi.types[1];
   if (type2 == null) {
