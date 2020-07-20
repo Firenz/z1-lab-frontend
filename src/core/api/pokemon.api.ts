@@ -22,6 +22,6 @@ export interface PokemonApiTypes {
 }
 
 export const getPokemonApi = async (pokemonId: number) => {
-  const fetchUrl = `http://pokeapi.co/api/v2/pokemon/${pokemonId}/`;
+  const fetchUrl = `https://pokeapi.co/api/v2/pokemon/${pokemonId}/`;
   return fetch(fetchUrl).then((response) => response.json());
 };
