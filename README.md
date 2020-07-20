@@ -3,7 +3,7 @@ This is a programming test for a Junior Front End Developer position in [Z1 Digi
 
 **[Demo app live version in Netlify](https://sad-tereshkova-3edfab.netlify.app/)**
 ## Description of the project
-> The app is small pokedex with 10 pokemon displayed in different cards. 
+> The app is a small pokedex with 10 pokemon entries displayed in different cards. 
 >
 > To obtain the data of the pokemon, use [PokeApi](https://pokeapi.co/) and [React-Query](https://react-query.tanstack.com/)
 
