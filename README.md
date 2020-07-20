@@ -35,7 +35,6 @@ npm run test
 - Frameworks: React
 - Tools: 
   - Environment: Node
-  - Testing: Jest
   - Code Formatter: Prettier
 - IDE: Visual Studio Code
 - Git IDEs: Visual Studio Code (integrated Git) & GitKraken
