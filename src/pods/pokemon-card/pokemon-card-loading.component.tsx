@@ -3,7 +3,6 @@ import pokeball from 'img/pokeball-corner.svg';
 import 'css/App.css';
 
 export const PokemonCardLoadingComponent: React.FC = () => {
-
   return (
     <React.Fragment>
       <section className="Pokemon-card">
@@ -13,9 +12,7 @@ export const PokemonCardLoadingComponent: React.FC = () => {
           alt="pokeball"
           aria-hidden="true"
         />
-        <div className="Pokemon-card-body">
-          Loading...
-        </div>
+        <div className="Pokemon-card-body">Loading...</div>
       </section>
     </React.Fragment>
   );

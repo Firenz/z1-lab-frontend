@@ -29,7 +29,11 @@ export const PokemonCardComponent: React.FC<Props> = (props: Props) => {
           <div className="Pokemon-card-main">
             <ul className="Pokemon-card-types-list">
               <li className="Pokemon-card-type-item">{pokemonData.types[0]}</li>
-              {pokemonData.types[1] && <li className="Pokemon-card-type-item">{pokemonData.types[1]}</li>}
+              {pokemonData.types[1] && (
+                <li className="Pokemon-card-type-item">
+                  {pokemonData.types[1]}
+                </li>
+              )}
             </ul>
             <img
               src={pokemonData.spriteUrl}
