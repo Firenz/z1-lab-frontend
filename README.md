@@ -17,13 +17,24 @@ npm install
 ```
 npm start
 ```
+## Deploy build
+- To deploy a local production build
+```
+npm run build:prod
+```
+As a side note, a production build running this app is hosted in [Netlify](https://sad-tereshkova-3edfab.netlify.app/).
+
+## Run tests
+- To run the tests
+```
+npm run test
+```
 
 # Development environment
 - Language: Typescript
 - Frameworks: React
 - Tools: 
   - Environment: Node
-  - Testing: Jest
   - Code Formatter: Prettier
 - IDE: Visual Studio Code
 - Git IDEs: Visual Studio Code (integrated Git) & GitKraken
