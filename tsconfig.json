@@ -18,15 +18,16 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react",
-    "baseUrl": "./src/",
-    "paths": {
-      "components": ["components/"],
-      "img": ["img/"],
-      "css": ["css/"],
-    }
+    "baseUrl": "./src/"
   },
   "include": [
     "src"
   ],
-  "exclude": ["node_modules", "**/*.spec.{js, jsx, ts, tsx}", "./public", "./dist", "./.vscode"]
+  "exclude": [
+    "node_modules",
+    "**/*.spec.{js, jsx, ts, tsx}",
+    "./public",
+    "./dist",
+    "./.vscode"
+  ]
 }
